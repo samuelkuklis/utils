@@ -23,7 +23,7 @@ import (
 	"context"
 	"fmt"
 
-	"k8s.io/utils/exec"
+	"github.com/samuelkuklis/utils/exec"
 )
 
 const (

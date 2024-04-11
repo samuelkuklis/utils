@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-// Deprecated: Use functions in k8s.io/utils/ptr instead: ptr.To to obtain
+// Deprecated: Use functions in github.com/samuelkuklis/utils/ptr instead: ptr.To to obtain
 // a pointer, ptr.Deref to dereference a pointer, ptr.Equal to compare
 // dereferenced pointers.
 package pointer
@@ -22,7 +22,7 @@ package pointer
 import (
 	"time"
 
-	"k8s.io/utils/ptr"
+	"github.com/samuelkuklis/utils/ptr"
 )
 
 // AllPtrFieldsNil tests whether all pointer fields in a struct are nil.  This is useful when,

@@ -27,8 +27,8 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/samuelkuklis/utils/exec"
 	"k8s.io/klog/v2"
-	"k8s.io/utils/exec"
 )
 
 const (

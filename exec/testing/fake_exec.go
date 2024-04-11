@@ -22,7 +22,7 @@ import (
 	"io"
 	"sync"
 
-	"k8s.io/utils/exec"
+	"github.com/samuelkuklis/utils/exec"
 )
 
 // FakeExec is a simple scripted Interface type.

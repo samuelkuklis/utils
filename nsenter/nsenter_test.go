@@ -25,7 +25,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"k8s.io/utils/exec"
+	"github.com/samuelkuklis/utils/exec"
 )
 
 func TestExec(t *testing.T) {

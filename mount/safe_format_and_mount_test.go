@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/utils/exec"
-	testingexec "k8s.io/utils/exec/testing"
+	"github.com/samuelkuklis/utils/exec"
+	testingexec "github.com/samuelkuklis/utils/exec/testing"
 )
 
 type ErrorMounter struct {

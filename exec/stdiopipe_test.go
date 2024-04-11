@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"k8s.io/utils/exec"
+	"github.com/samuelkuklis/utils/exec"
 )
 
 func ExampleNew_stderrPipe() {

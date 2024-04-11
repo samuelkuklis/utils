@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/utils/clock"
+	"github.com/samuelkuklis/utils/clock"
 )
 
 type SettablePassiveClock interface {

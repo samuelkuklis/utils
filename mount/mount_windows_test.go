@@ -27,7 +27,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	testingexec "k8s.io/utils/exec/testing"
+	testingexec "github.com/samuelkuklis/utils/exec/testing"
 )
 
 func makeLink(link, target string) error {

@@ -27,7 +27,7 @@ Example:
 	    }
 	}
 */
-package inotify // import "k8s.io/utils/inotify"
+package inotify // import "github.com/samuelkuklis/utils/inotify"
 
 import (
 	"errors"

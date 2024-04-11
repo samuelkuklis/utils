@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io"
 
-	"k8s.io/utils/temp"
+	"github.com/samuelkuklis/utils/temp"
 )
 
 func TestedCode(dir temp.Directory) error {

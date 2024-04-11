@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	utilnet "k8s.io/utils/net"
+	utilnet "github.com/samuelkuklis/utils/net"
 )
 
 func Example() {

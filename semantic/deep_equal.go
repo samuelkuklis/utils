@@ -17,7 +17,7 @@ limitations under the License.
 package semantic
 
 import (
-	"k8s.io/utils/third_party/forked/golang/reflect"
+	"github.com/samuelkuklis/utils/third_party/forked/golang/reflect"
 )
 
 // Equalities is a map from type to a function comparing two values of

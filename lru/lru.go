@@ -18,7 +18,7 @@ package lru
 import (
 	"sync"
 
-	groupcache "k8s.io/utils/internal/third_party/forked/golang/golang-lru"
+	groupcache "github.com/samuelkuklis/utils/internal/third_party/forked/golang/golang-lru"
 )
 
 type Key = groupcache.Key

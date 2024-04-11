@@ -1,3 +1,4 @@
+//go:build !linux
 // +build !linux
 
 /*
@@ -16,7 +17,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package inotify // import "k8s.io/utils/inotify"
+package inotify // import "github.com/samuelkuklis/utils/inotify"
 
 import (
 	"fmt"

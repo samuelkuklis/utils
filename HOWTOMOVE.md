@@ -1,10 +1,10 @@
 # How to move a utility pkg from other kubernetes repos
 
-It has 2 steps to move a pkg from other Kubernetes repos to `k8s.io/utils` repo:
-- copy the pkg to `k8s.io/utils` repo
+It has 2 steps to move a pkg from other Kubernetes repos to `github.com/samuelkuklis/utils` repo:
+- copy the pkg to `github.com/samuelkuklis/utils` repo
 - update the import paths and `vendor/` in the repos that refer this pkg
 
-## Copy the pkg to `k8s.io/utils` repo
+## Copy the pkg to `github.com/samuelkuklis/utils` repo
 
 Copying should preserve all the git history associated with it.
 [Here](http://gbayer.com/development/moving-files-from-one-git-repository-to-another-preserving-history/) is a working approach.

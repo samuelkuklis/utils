@@ -26,8 +26,8 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/samuelkuklis/utils/keymutex"
 	"k8s.io/klog/v2"
-	"k8s.io/utils/keymutex"
 )
 
 const (

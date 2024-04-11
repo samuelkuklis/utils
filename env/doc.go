@@ -15,4 +15,4 @@ limitations under the License.
 */
 
 // Package env provides utility functions for using environment variables.
-package env // import "k8s.io/utils/env"
+package env // import "github.com/samuelkuklis/utils/env"

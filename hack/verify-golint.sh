@@ -33,11 +33,11 @@ failure_file="${KUBE_ROOT}/hack/.golint_failures"
 kube::util::check-file-in-alphabetical-order "${failure_file}"
 
 export IFS=$'\n'
-# NOTE: when "go list -e ./..." is run within GOPATH, it turns the k8s.io/utils
+# NOTE: when "go list -e ./..." is run within GOPATH, it turns the github.com/samuelkuklis/utils
 # as the prefix, however if we run it outside it returns the full path of the file
 # with a leading underscore. We'll need to support both scenarios for all_packages.
 all_packages=()
-while IFS='' read -r line; do all_packages+=("$line"); done < <(go list -e ./... | grep -vE "/(third_party)" | sed -e 's|^k8s.io/utils/||' -e "s|^_\(${KUBE_ROOT}/\)\{0,1\}||")
+while IFS='' read -r line; do all_packages+=("$line"); done < <(go list -e ./... | grep -vE "/(third_party)" | sed -e 's|^github.com/samuelkuklis/utils/||' -e "s|^_\(${KUBE_ROOT}/\)\{0,1\}||")
 # The regex below removes any "#" character and anything behind it and including any
 # whitespace before it. Then it removes empty lines.
 failing_packages=()

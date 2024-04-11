@@ -19,7 +19,7 @@ package testingexec
 import (
 	"testing"
 
-	"k8s.io/utils/exec"
+	"github.com/samuelkuklis/utils/exec"
 )
 
 // Test that command order is enforced

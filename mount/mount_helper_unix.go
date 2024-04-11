@@ -26,7 +26,7 @@ import (
 	"strings"
 	"syscall"
 
-	utilio "k8s.io/utils/io"
+	utilio "github.com/samuelkuklis/utils/io"
 )
 
 const (

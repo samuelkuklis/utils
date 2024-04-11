@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"k8s.io/utils/exec"
+	"github.com/samuelkuklis/utils/exec"
 )
 
 func ExampleNew() {

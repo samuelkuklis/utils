@@ -28,9 +28,9 @@ import (
 	"strings"
 	"syscall"
 
+	utilexec "github.com/samuelkuklis/utils/exec"
+	utilio "github.com/samuelkuklis/utils/io"
 	"k8s.io/klog/v2"
-	utilexec "k8s.io/utils/exec"
-	utilio "k8s.io/utils/io"
 )
 
 const (

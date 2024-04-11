@@ -24,7 +24,7 @@ import (
 	"regexp"
 	"strings"
 
-	utilexec "k8s.io/utils/exec"
+	utilexec "github.com/samuelkuklis/utils/exec"
 )
 
 const (

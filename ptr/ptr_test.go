@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"k8s.io/utils/ptr"
+	"github.com/samuelkuklis/utils/ptr"
 )
 
 func TestAllPtrFieldsNil(t *testing.T) {

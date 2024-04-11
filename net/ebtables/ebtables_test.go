@@ -20,8 +20,8 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/utils/exec"
-	fakeexec "k8s.io/utils/exec/testing"
+	"github.com/samuelkuklis/utils/exec"
+	fakeexec "github.com/samuelkuklis/utils/exec/testing"
 )
 
 func TestEnsureChain(t *testing.T) {

@@ -1,4 +1,4 @@
-module k8s.io/utils
+module github.com/samuelkuklis/utils
 
 go 1.18
 
